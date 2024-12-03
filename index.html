@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65bfbf4940.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bar-slider-content">
+        <button class="arrow-button" id="upButton"><i class="fa-solid fa-caret-up"></i></button>
+        <div class="points-bar-content">
+            <div class="points-bar">
+                <div class="text-point anim-point"><i class="fa-solid fa-house icon"></i> Home</div>
+                <div class="point marked-point"></div>
+            </div>
+            <div class="points-bar">
+                <div class="text-point"><i class="fa-solid fa-user icon"></i> Meu Perfil</div>
+                <div class="point"></div>
+            </div>
+            <div class="points-bar">
+                <div class="text-point"><i class="fa-solid fa-file-code icon"></i> Projetos</div>
+                <div class="point"></div>
+            </div>
+        </div>
+        <button class="arrow-button" id="downButton"><i class="fa-solid fa-caret-down"></i></button>
+    </div>
+    <main class="main-principal" id="mainPrincipal">
+        <section class="home-section" id="home">
+            <div class="left-page">
+                <div class="left-page-text-content">
+                    <h1 class="title-left-page">Welcome</h1>
+                    <p class="p-title">Meu nome é</p>
+                    <div class="name-title-content">
+                        <strong class="name-title">Misael Morgado</strong>
+                        <hr class="line-name">
+                    </div>
+                    <strong class="developer-left-page">Developer Full-Stack</strong>
+                </div>
+            </div>
+            <div class="right-page">
+                <img src="20240811_161022.jpg" alt="Foto de Misael Morgado" class="img-right-page">
+            </div>
+        </section>
+        <section class="my-profile-section" id="myProfile">
+            <div class="about-me-content">
+                <div class="text-about-me-content">
+                    <p class="text-about-me">Sou apaixonado por desafios que envolvem lógica, como, por exemplo, Xadrez, Cubo Mágico, Quebra-Cabeças, etc. Também sou fascinado por lógica matemática, o que me fez se interessar por programação quando tinha 13 anos. Hoje estou sempre em busca de novos conhecimentos.</p>
+                </div>
+                <div class="contacts-content">
+                    <div class="type-contact">
+                        <div class="type-contact-icon git">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                    <div class="type-contact">
+                        <div class="type-contact-icon linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="type-contact">
+                        <div class="type-contact-icon email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-right-page">
+                <div class="text-skills">Meus conhecimentos</div>
+                <div class="slides-skills">
+                    <button class="arrow-button" id="skillsLeftButton"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="skills-content">
+                        <ul class="ul-skills" id="skillsSlide">
+                            <li class="skill html">
+                                <i class="fa-brands fa-html5"></i>
+                                <div class="name-skill">HTML 5</div>
+                            </li>
+                            <li class="skill css">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <div class="name-skill">CSS 3</div>
+                            </li>
+                            <li class="skill js">
+                                <i class="fa-brands fa-js"></i>
+                                <div class="name-skill">JS</div>
+                            </li>
+                            <li class="skill node">
+                                <i class="fa-brands fa-node"></i>
+                                <div class="name-skill">Node</div>
+                            </li>
+                            <li class="skill php">
+                                <i class="fa-brands fa-php"></i>
+                                <div class="name-skill">PHP</div>
+                            </li>
+                            <li class="skill sql">
+                                <i class="fa-solid fa-database"></i>
+                                <div class="name-skill">SQL</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="arrow-button" id="skillsRightButton"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="projects-section" id="projects">
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
